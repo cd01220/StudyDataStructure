@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{91bd16a3-d369-4f3e-9110-be1b90977180}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{ccd8abc1-ff2f-4c69-afe3-215151a97efa}</UniqueIdentifier>
+      <Extensions>h;hxx</Extensions>
+    </Filter>
+    <Filter Include="Object\Wrapper">
+      <UniqueIdentifier>{66bcc777-ac7c-431a-ad92-12c6371b7cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Solution">
+      <UniqueIdentifier>{cfce78d3-3c02-4a2a-b253-2b170f6b6534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ownership">
+      <UniqueIdentifier>{6c7f0891-3f97-4768-8607-87c57de022aa}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Ownership\Container">
+      <UniqueIdentifier>{f60afd1a-98c9-4956-b004-58eb5e478e1f}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Ownership\Container\Stack">
+      <UniqueIdentifier>{331918d1-a97f-4d11-9eb6-a52ee1bc1e6e}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Ownership\Container\Queue">
+      <UniqueIdentifier>{93eb6d97-1d89-421d-9022-40a6a2677eb7}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Ownership\Container\Queue\PriorityQueue">
+      <UniqueIdentifier>{0f657736-2bce-4497-9bf5-faca192db378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ownership\Container\SearchableContainer">
+      <UniqueIdentifier>{c376a234-788d-4d63-87bd-3d7397af538e}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Ownership\Container\SearchableContainer\List">
+      <UniqueIdentifier>{4f9396f7-e5df-4ea9-b501-c97d058f79bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ownership\Container\SearchableContainer\List\OrderedList">
+      <UniqueIdentifier>{27ccb04e-f6be-4620-bfa7-87e01cf80702}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Ownership\Container\SearchableContainer\List\SortedList">
+      <UniqueIdentifier>{010da80f-ba15-4c9b-8d63-2acf9d0c5718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ownership\Container\SearchableContainer\HashTable">
+      <UniqueIdentifier>{ebc50455-5139-4100-80f0-41aa1e0ebca9}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Ownership\Container\SearchableContainer\Set">
+      <UniqueIdentifier>{3d510736-6d4d-4cff-bf5c-012c26533726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ownership\Container\Tree">
+      <UniqueIdentifier>{5f8fc471-f62a-4565-a906-3c57b93920e2}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Ownership\Container\Graph">
+      <UniqueIdentifier>{e6108858-0175-46d2-8908-7f8a17fd0db6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Array_LinkedList">
+      <UniqueIdentifier>{6bd87d4d-1a71-4177-bccf-f302213a437d}</UniqueIdentifier>
+      <Extensions>h;hxx</Extensions>
+    </Filter>
+    <Filter Include="Iterator">
+      <UniqueIdentifier>{93f7bcba-848d-4606-a143-cdcf90ce7c79}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Visitor">
+      <UniqueIdentifier>{8d06a8f3-9b32-4b83-8e7d-adfa948c649c}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{9bf66118-abe5-480a-8356-5c38419b264e}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b9158c6c-0859-472e-a24b-11907092938b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="StoragePool">
+      <UniqueIdentifier>{0c32d8af-06f2-4894-8973-de603bacbcec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Solver">
+      <UniqueIdentifier>{cab06da5-8513-4a92-a7b9-db4a3c036ba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorter">
+      <UniqueIdentifier>{d667496e-2c1c-4415-8024-e31dd7a5baa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorter\InsertionSorter">
+      <UniqueIdentifier>{ed5e377b-5678-4548-9941-837a8183d9cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorter\ExchangeSorter">
+      <UniqueIdentifier>{e9e3e448-3664-42ec-89e1-fb9362d2f82f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorter\SelectionSorter">
+      <UniqueIdentifier>{a76fe1c2-6a2a-4d8e-af65-debb5bdcd971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorter\MergeSorter">
+      <UniqueIdentifier>{72f1f093-0dc6-44a0-8ab9-dc3ac6123d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorter\DistributionSorter">
+      <UniqueIdentifier>{afa7c70e-de51-4b10-b6f2-943f9de9226d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZKDataStructure">
+      <UniqueIdentifier>{cbbad750-6fb8-45fa-a968-4e83c38858ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\Object\NulllObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\Object\Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\Association.cpp">
+      <Filter>Ownership</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\Ownership.cpp">
+      <Filter>Ownership</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\PureContainer.cpp">
+      <Filter>Ownership\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Stack\StackAsArray.cpp">
+      <Filter>Ownership\Container\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Stack\StackAsLinkedList.cpp">
+      <Filter>Ownership\Container\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Queue\QueueAsArray.cpp">
+      <Filter>Ownership\Container\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Queue\QueueAsLinkedList.cpp">
+      <Filter>Ownership\Container\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Queue\PriorityQueue\BinaryHeap.cpp">
+      <Filter>Ownership\Container\Queue\PriorityQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Queue\PriorityQueue\BinomialQueue.cpp">
+      <Filter>Ownership\Container\Queue\PriorityQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Queue\PriorityQueue\BinomialTree.cpp">
+      <Filter>Ownership\Container\Queue\PriorityQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Queue\PriorityQueue\LeftistHeap.cpp">
+      <Filter>Ownership\Container\Queue\PriorityQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\List\OrderedList\OrderedList.cpp">
+      <Filter>Ownership\Container\SearchableContainer\List\OrderedList</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\List\SortedList\SortedList.cpp">
+      <Filter>Ownership\Container\SearchableContainer\List\SortedList</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\HashTable\ChainedHashTable.cpp">
+      <Filter>Ownership\Container\SearchableContainer\HashTable</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\HashTable\ChainedScatterTable.cpp">
+      <Filter>Ownership\Container\SearchableContainer\HashTable</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\HashTable\HashTable.cpp">
+      <Filter>Ownership\Container\SearchableContainer\HashTable</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\Set\SetAsArray.cpp">
+      <Filter>Ownership\Container\SearchableContainer\Set</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Tree\AVLTree.cpp">
+      <Filter>Ownership\Container\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Tree\BinaryTree.cpp">
+      <Filter>Ownership\Container\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Tree\BST.cpp">
+      <Filter>Ownership\Container\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Tree\BTree.cpp">
+      <Filter>Ownership\Container\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Tree\ExpressionTree.cpp">
+      <Filter>Ownership\Container\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Tree\GeneralTree.cpp">
+      <Filter>Ownership\Container\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Tree\MWayTree.cpp">
+      <Filter>Ownership\Container\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Tree\NaryTree.cpp">
+      <Filter>Ownership\Container\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Tree\Tree.cpp">
+      <Filter>Ownership\Container\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\Iterator\NullIterator.cpp">
+      <Filter>Iterator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StructAndAlgorithms\Object\Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\Object\Wrapper\Wrapper.h">
+      <Filter>Object\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\Object\Solution\Solution.h">
+      <Filter>Object\Solution</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\Association.h">
+      <Filter>Ownership</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\OwnerShip.h">
+      <Filter>Ownership</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\PureContainer.h">
+      <Filter>Ownership\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Stack\Stack.h">
+      <Filter>Ownership\Container\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Stack\StackAsArray.h">
+      <Filter>Ownership\Container\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Stack\StackAsLinkedList.h">
+      <Filter>Ownership\Container\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Queue\Queue.h">
+      <Filter>Ownership\Container\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Queue\QueueAsArray.h">
+      <Filter>Ownership\Container\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Queue\QueueAsLinkedList.h">
+      <Filter>Ownership\Container\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Queue\PriorityQueue\Apply_PriorityQueue.h">
+      <Filter>Ownership\Container\Queue\PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Queue\PriorityQueue\BinaryHeap.h">
+      <Filter>Ownership\Container\Queue\PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Queue\PriorityQueue\BinomialQueue.h">
+      <Filter>Ownership\Container\Queue\PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Queue\PriorityQueue\BinomialTree.h">
+      <Filter>Ownership\Container\Queue\PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Queue\PriorityQueue\LeftistHeap.h">
+      <Filter>Ownership\Container\Queue\PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Queue\PriorityQueue\PriorityQueue.h">
+      <Filter>Ownership\Container\Queue\PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\PureSearchableContainer.h">
+      <Filter>Ownership\Container\SearchableContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\List\PureList.h">
+      <Filter>Ownership\Container\SearchableContainer\List</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\List\OrderedList\OrderedList.h">
+      <Filter>Ownership\Container\SearchableContainer\List\OrderedList</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\List\SortedList\SortedList.h">
+      <Filter>Ownership\Container\SearchableContainer\List\SortedList</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\HashTable\ChainedHashTable.h">
+      <Filter>Ownership\Container\SearchableContainer\HashTable</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\HashTable\ChainedScatterTable.h">
+      <Filter>Ownership\Container\SearchableContainer\HashTable</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\HashTable\HashTable.h">
+      <Filter>Ownership\Container\SearchableContainer\HashTable</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\Set\Set.h">
+      <Filter>Ownership\Container\SearchableContainer\Set</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\Set\SetAsArray.h">
+      <Filter>Ownership\Container\SearchableContainer\Set</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\AVLTree.h">
+      <Filter>Ownership\Container\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\B+Tree.h">
+      <Filter>Ownership\Container\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\B-Tree.h">
+      <Filter>Ownership\Container\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\BinaryTree.h">
+      <Filter>Ownership\Container\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\BST.h">
+      <Filter>Ownership\Container\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\BTree.h">
+      <Filter>Ownership\Container\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\ExpressionTree.h">
+      <Filter>Ownership\Container\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\GeneralTree.h">
+      <Filter>Ownership\Container\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\MWayTree.h">
+      <Filter>Ownership\Container\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\NaryTree.h">
+      <Filter>Ownership\Container\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\SearchTree.h">
+      <Filter>Ownership\Container\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\Tree.h">
+      <Filter>Ownership\Container\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Graph\Graph.h">
+      <Filter>Ownership\Container\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Graph\Vertex_Edge.h">
+      <Filter>Ownership\Container\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\Array_LinkedList\Array.h">
+      <Filter>Array_LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\Array_LinkedList\LinkedList.h">
+      <Filter>Array_LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\Iterator\Iterator.h">
+      <Filter>Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\Visitor\PureVisitor.h">
+      <Filter>Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\TestGeneralTree.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\TestHashTable.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\TestList.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\TestQueue.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\TestSorter.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\TestStackAsList.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\TestStoragePool.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\TestTree.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\StoragePool\StoragePool.h">
+      <Filter>StoragePool</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\Solver\Solver.h">
+      <Filter>Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\Sorter\Sorter.h">
+      <Filter>Sorter</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\Sorter\InsertionSorter\BinaryInsertionSorter.h">
+      <Filter>Sorter\InsertionSorter</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\Sorter\InsertionSorter\ShellInsertionSorter.h">
+      <Filter>Sorter\InsertionSorter</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\Sorter\InsertionSorter\StraightInsertionSorter.h">
+      <Filter>Sorter\InsertionSorter</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\Sorter\ExchangeSorter\BubbleSorter.h">
+      <Filter>Sorter\ExchangeSorter</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\Sorter\ExchangeSorter\QuickSorter.h">
+      <Filter>Sorter\ExchangeSorter</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\Sorter\SelectionSorter\HeapSorter.h">
+      <Filter>Sorter\SelectionSorter</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\Sorter\SelectionSorter\StraightSelectionSorter.h">
+      <Filter>Sorter\SelectionSorter</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\Sorter\MergeSorter\TwoWayMergeSorter.h">
+      <Filter>Sorter\MergeSorter</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\Sorter\DistributionSorter\BucketSorter.h">
+      <Filter>Sorter\DistributionSorter</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndAlgorithms\Sorter\DistributionSorter\RadixSorter.h">
+      <Filter>Sorter\DistributionSorter</Filter>
+    </ClInclude>
+    <ClInclude Include="ZKDataStructure\CreateHuffmanTree.h">
+      <Filter>ZKDataStructure</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ZKDataStructure\Readme.txt">
+      <Filter>ZKDataStructure</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

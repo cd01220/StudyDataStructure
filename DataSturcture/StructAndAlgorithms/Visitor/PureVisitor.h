@@ -1,0 +1,16 @@
+#ifndef _PUREVISITOR_H_
+#define _PUREVISITOR_H_
+
+class Object;
+//////////////////////////////////////////////////////////////////////////////
+//	Class: Visitor
+//////////////////////////////////////////////////////////////////////////////
+class Visitor
+{
+public:
+    virtual void Visit (Object&) = 0;
+    virtual bool IsDone () const
+	{ return false; }
+};
+
+#endif //_PUREVISITOR_H_

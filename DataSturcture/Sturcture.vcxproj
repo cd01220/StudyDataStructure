@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <RootNamespace>Sturcture</RootNamespace>
+    <SccProjectName />
+    <SccLocalPath />
+    <ProjectGuid>{73556346-F689-44A3-A276-6AD44AE4D231}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader />
+      <PrecompiledHeaderOutputFile>.\Debug/Sturcture.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>.\Debug/Sturcture.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/Sturcture.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <TypeLibraryName>.\Debug/Sturcture.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <PrecompiledHeaderOutputFile>.\Release/Sturcture.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <Link>
+      <OutputFile>.\Release/Sturcture.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Release/Sturcture.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <TypeLibraryName>.\Release/Sturcture.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Disabled</Optimization>
+      <BasicRuntimeChecks Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">EnableFastChecks</BasicRuntimeChecks>
+      <BrowseInformation Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</BrowseInformation>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="StructAndAlgorithms\Object\NulllObject.cpp" />
+    <ClCompile Include="StructAndAlgorithms\Object\Object.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\Association.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\Ownership.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\PureContainer.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Stack\StackAsArray.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Stack\StackAsLinkedList.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Queue\QueueAsArray.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Queue\QueueAsLinkedList.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Queue\PriorityQueue\BinaryHeap.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Queue\PriorityQueue\BinomialQueue.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Queue\PriorityQueue\BinomialTree.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Queue\PriorityQueue\LeftistHeap.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\List\OrderedList\OrderedList.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\List\SortedList\SortedList.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\HashTable\ChainedHashTable.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\HashTable\ChainedScatterTable.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\HashTable\HashTable.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\Set\SetAsArray.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Tree\AVLTree.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Tree\BinaryTree.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Tree\BST.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Tree\BTree.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Tree\ExpressionTree.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Tree\GeneralTree.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Tree\MWayTree.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Tree\NaryTree.cpp" />
+    <ClCompile Include="StructAndAlgorithms\OwnerShip\container\Tree\Tree.cpp" />
+    <ClCompile Include="StructAndAlgorithms\Iterator\NullIterator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StructAndAlgorithms\Object\Object.h" />
+    <ClInclude Include="StructAndAlgorithms\Object\Wrapper\Wrapper.h" />
+    <ClInclude Include="StructAndAlgorithms\Object\Solution\Solution.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\Association.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\OwnerShip.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\PureContainer.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Stack\Stack.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Stack\StackAsArray.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Stack\StackAsLinkedList.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Queue\Queue.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Queue\QueueAsArray.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Queue\QueueAsLinkedList.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Queue\PriorityQueue\Apply_PriorityQueue.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Queue\PriorityQueue\BinaryHeap.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Queue\PriorityQueue\BinomialQueue.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Queue\PriorityQueue\BinomialTree.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Queue\PriorityQueue\LeftistHeap.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Queue\PriorityQueue\PriorityQueue.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\PureSearchableContainer.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\List\PureList.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\List\OrderedList\OrderedList.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\List\SortedList\SortedList.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\HashTable\ChainedHashTable.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\HashTable\ChainedScatterTable.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\HashTable\HashTable.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\Set\Set.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\SearchableContainer\Set\SetAsArray.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\AVLTree.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\B+Tree.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\B-Tree.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\BinaryTree.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\BST.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\BTree.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\ExpressionTree.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\GeneralTree.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\MWayTree.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\NaryTree.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\SearchTree.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Tree\Tree.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Graph\Graph.h" />
+    <ClInclude Include="StructAndAlgorithms\OwnerShip\container\Graph\Vertex_Edge.h" />
+    <ClInclude Include="StructAndAlgorithms\Array_LinkedList\Array.h" />
+    <ClInclude Include="StructAndAlgorithms\Array_LinkedList\LinkedList.h" />
+    <ClInclude Include="StructAndAlgorithms\Iterator\Iterator.h" />
+    <ClInclude Include="StructAndAlgorithms\Visitor\PureVisitor.h" />
+    <ClInclude Include="Test\TestGeneralTree.h" />
+    <ClInclude Include="Test\TestHashTable.h" />
+    <ClInclude Include="Test\TestList.h" />
+    <ClInclude Include="Test\TestQueue.h" />
+    <ClInclude Include="Test\TestSorter.h" />
+    <ClInclude Include="Test\TestStackAsList.h" />
+    <ClInclude Include="Test\TestStoragePool.h" />
+    <ClInclude Include="Test\TestTree.h" />
+    <ClInclude Include="StructAndAlgorithms\StoragePool\StoragePool.h" />
+    <ClInclude Include="StructAndAlgorithms\Solver\Solver.h" />
+    <ClInclude Include="StructAndAlgorithms\Sorter\Sorter.h" />
+    <ClInclude Include="StructAndAlgorithms\Sorter\InsertionSorter\BinaryInsertionSorter.h" />
+    <ClInclude Include="StructAndAlgorithms\Sorter\InsertionSorter\ShellInsertionSorter.h" />
+    <ClInclude Include="StructAndAlgorithms\Sorter\InsertionSorter\StraightInsertionSorter.h" />
+    <ClInclude Include="StructAndAlgorithms\Sorter\ExchangeSorter\BubbleSorter.h" />
+    <ClInclude Include="StructAndAlgorithms\Sorter\ExchangeSorter\QuickSorter.h" />
+    <ClInclude Include="StructAndAlgorithms\Sorter\SelectionSorter\HeapSorter.h" />
+    <ClInclude Include="StructAndAlgorithms\Sorter\SelectionSorter\StraightSelectionSorter.h" />
+    <ClInclude Include="StructAndAlgorithms\Sorter\MergeSorter\TwoWayMergeSorter.h" />
+    <ClInclude Include="StructAndAlgorithms\Sorter\DistributionSorter\BucketSorter.h" />
+    <ClInclude Include="StructAndAlgorithms\Sorter\DistributionSorter\RadixSorter.h" />
+    <ClInclude Include="ZKDataStructure\CreateHuffmanTree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ZKDataStructure\Readme.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
